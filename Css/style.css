@@ -1,0 +1,136 @@
+body{
+    margin : 0px;
+    padding : 0px;
+    color  : white;
+    font-family: 'Fruktur', cursive;
+}
+
+.container{
+    background-image: url('/images/wp2639536-gym-wallpaper-hd.jpg');
+    height: 750px;
+    width: 1520px;
+}
+
+.box1{
+    width : 150px;
+    height : 130px;
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+}
+
+.box1 img{
+    width: 120px;
+    height: 104px;
+    position : absolute;
+    left : 20px;
+    top: 20px;
+    filter: invert(100%);
+}
+
+.brand{
+    position: relative;
+    font-size: 30px;
+    top : 110px;
+    left: 60px;
+}
+
+.box2{
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    top: 15px;
+}
+
+.navlist li{
+    list-style: none;
+    float: left;
+    font-size: 25px;
+    padding : 29px;
+}
+
+.navlist li a{
+    color : white;
+    text-decoration: none;
+}
+
+.navlist li a:hover{
+    color: rgb(185, 20, 20);
+}
+
+
+.box3{
+    position : absolute;
+    right: 20px;
+    top: 52px;
+    width: 260px;
+}
+
+.btn1{
+    margin: 4px;
+    color: white;
+    background-color: rgb(57 159 208);
+    font-size: medium;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    border: black;
+}
+
+.btn1:hover{
+   background-color : rgb(73, 68, 122);
+   cursor: pointer;
+}
+
+
+.container2{
+    border : 4px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    left : 100px;
+    top : 150px;
+    width: 500px;
+    height: 400px;
+    margin: 74px;
+}
+
+#joinform{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#joinform input{
+    width: 400px;
+    height: 26px;
+    margin: 9px;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+.container2 .heading{
+    position: relative;
+    top : 18px;
+    left: 200px;
+    font-size: 30px;
+
+}
+
+#joinform .submit{
+    width: 404px;
+    height: 30px;
+    margin: 9px;
+    color : white;
+    background-color: rgb(57 159 208);
+    font-family:'Fruktur', cursive;
+    border-radius: 7px;
+    border-color: 2px solid black;
+}
+
+#joinform .submit:hover{
+    background-color: rgb(73, 68, 122);
+    cursor: pointer;
+}
+
